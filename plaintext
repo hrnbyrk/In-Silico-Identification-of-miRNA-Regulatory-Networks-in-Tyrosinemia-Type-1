@@ -1,0 +1,24 @@
+Tyrosinemia_Type1_MultiOmics_Analysis/
+│
+├── README.md                  # (Content provided below)
+├── LICENSE                    # (MIT License recommended)
+│
+├── data/                      # Data files
+│   ├── raw/                   # Raw GEO datasets (GSE files)
+│   └── processed/             # Generated CSV files
+│       ├── Core_Consensus_DEGs.csv          (Was: R_Cok_Siki_Benzerlik_Genler.csv)
+│       ├── Master_Regulator_miRNAs.csv      (Was: FINAL_miRNA_Master_Regulators.csv)
+│       ├── Dual_Hit_FAH_HPD_miRNAs.csv      (Was: DUAL_HIT_miRNAs_FAH_HPD.csv)
+│       └── Top20_Candidate_miRNAs.csv       (Was: Top20_miRNAs_.csv)
+│
+├── scripts/                   # R Analysis Scripts
+│   ├── 01_Differential_Expression.R
+│   ├── 02_Functional_Enrichment.R
+│   ├── 03_miRNA_Target_Prediction.R
+│   └── 04_Network_Visualization.R
+│
+└── results/                   # Output Figures
+    ├── Figure1_Biomarker_Expression.png
+    ├── Figure2_Drug_Gene_Interactions.png
+    ├── Figure3_HPD_Regulatory_Network.png
+    └── Figure4_Holistic_Signaling_Network.png
