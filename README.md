@@ -69,3 +69,11 @@ if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 
 BiocManager::install(c("limma", "clusterProfiler", "org.Mm.eg.db", "multiMiR", "biomaRt", "Biostrings"))
+
+
+📞 Contact
+Harun Bayrak, MD, PhD
+•	Affiliation: Sincan Training and Research Hospital, Ankara, Türkiye
+•	Dept: Pediatric Metabolic Disorders
+•	Email: hrnbyrk@gmail.com
+•	ORCID: 0000-0002-5728-3895
